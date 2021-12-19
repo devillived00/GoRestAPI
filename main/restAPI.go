@@ -64,7 +64,7 @@ func getResponse(w http.ResponseWriter, r *http.Request) {
 		vars := r.URL.Query()
 
 		_len, err := strconv.Atoi(vars["length"][0])
-		_req, err := strconv.Atoi(vars["request"][0])
+		_req, err := strconv.Atoi(vars["requests"][0])
 
 		if err != nil {
 			// handle error
