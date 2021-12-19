@@ -1,4 +1,4 @@
-module github.com/devillived00/rest
+module github.com/devillived00/GoRestApi
 
 go 1.16
 
